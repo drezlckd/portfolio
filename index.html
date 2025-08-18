@@ -26,10 +26,28 @@
     <section id="projetos">
         <h2>Meus Projetos</h2>
         <p>Aqui estão alguns dos meus projetos mais recentes.</p>
+        <ul>
+            <li>Lanchonete: Descrição do projeto 1.</li>
+            <img src="https://via.placeholder.com/150" alt="Imagem do Projeto 1">
+            <li>Marketplace: Descrição do projeto 2.</li>
+            <img src="https://via.placeholder.com/150" alt="Imagem do Projeto 2">
+            <li>Portfolio: Descrição do projeto 3.</li>
+            <img src="https://via.placeholder.com/150" alt="Imagem do Projeto 3">
+        </ul>
     </section>
     <section id="contatos">
         <h2>Contatos</h2>
-        <p>Você pode me contatar através do e-mail:
+        <p>Você pode me contatar através do e-mail:</p>
+        <form class="form" action="" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+            <button type="submit">Enviar</button>
+
+        </form>
     </section>
 </main>
     </body>
