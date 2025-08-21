@@ -57,3 +57,24 @@ a:hover {
 .button:hover {
     background: #005fcc;
 }
+
+@media (max-width: 480px) {
+    main {
+        padding: 1rem;
+    }
+
+    header {
+        padding: 1rem 0;
+    }
+
+    .button {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    main {
+        padding: 1.5rem;
+    }
+}
