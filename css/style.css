@@ -8,7 +8,23 @@ body {
     color: #222;
 }
 
+.Conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes-sociais {
+    li {
+    list-style-type: none;
+    }
+}
+
 header {
+    li {
+    list-style-type: none;
+    }
     background: #222;
     color: #fff;
     padding: 2rem 0;
