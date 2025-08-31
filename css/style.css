@@ -8,19 +8,6 @@ body {
     color: #222;
 }
 
-.Conteudo-principal {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.redes-sociais {
-    li {
-    list-style-type: none;
-    }
-}
-
 header {
     li {
     list-style-type: none;
@@ -56,6 +43,19 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.Conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes-sociais {
+    li {
+    list-style-type: none;
+    }
 }
 
 .button {
